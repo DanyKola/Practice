@@ -1,0 +1,4 @@
+2021-08-09;548.1;OTHERS;Pečivo z pekárny
+2021-07-31;84.5;OTHERS;Pečivo z pekárny
+2022-03-18;4.3;OTHERS;Rohlík
+2022-03-18;4.3;OTHERS;Rohlík
