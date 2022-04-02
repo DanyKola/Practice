@@ -1,33 +1,71 @@
 # PRACTICE
 procvičování 
 
-## Diař
 
+## Sazby DPH vybraných států
+Ucelený projekt na procvičení 
+- Popis dat
+- Soubory
+- Výjimky
+- Kolekce
+- Pole
 
-## DPHsazby
+## Večeřící Filozofové
+Procvičení
+- Kolekce
+- Vlákna
+
+## Školní Třida
+Procvičení
+- Zapouzdření
+- Balíčky
+- Final
+- Dědičnost
+- Interface
+- OOP
 
 ## FizzBuzz
-- podmínky a cykly
+Procvičení 
+- Podmínky
+- Cykly
 
 ## Hotel
+Procvičení
+- Popisky dat
+
+## Nákupy
+Procvičení
+- Kolekce 
+- Pole
+
+## Nápojový Automat
+Procvičení
+- Modifikátory přístupu
+- OOP
+- Interface
+
+## Pokojové Rostliny
+Procvičení
+-  Soubory
+-  Výjimky 
+
+## Příklad
+Procvičení
+- Podmínky 
+- Cykly
+
+## Restaurace
+Procvičení
+- Kolekce
+- Pole
+
+
+
+
+## Diař
 
 ## Kalkulačka
 
 ## Kino
-- obsazenost sedadel
-
-## Nákupy
-
-## Nápojový Automat
-
-## Pokojové Rostliny
-
-## Příklad
-
-## Restaurace
-
-## Školní Třida
-
-## Večeřící Filozofové
 
 
