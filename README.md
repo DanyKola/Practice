@@ -15,7 +15,7 @@ Procvičení
 - Kolekce
 - Vlákna
 
-## Školní Třida
+## Školní Třída
 Procvičení
 - Zapouzdření
 - Balíčky
