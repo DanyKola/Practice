@@ -66,6 +66,5 @@ Procvičení
 
 ## Kalkulačka
 
-## Kino
 
 
