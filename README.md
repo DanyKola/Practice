@@ -62,9 +62,9 @@ Procvičení
 - Kolekce
 - Pole
 
-## ProcvicovaniJava
-
-
+## Procvičování JAVA
+- Základní operace
+- 
 
 
 ## Diař
