@@ -1,6 +1,9 @@
 # PRACTICE
 procvičování 
 
+## SpringShopMySql - rozpracované
+
+
 
 ## Sazby DPH vybraných států
 Ucelený projekt na procvičení 
@@ -58,6 +61,8 @@ Procvičení
 Procvičení
 - Kolekce
 - Pole
+
+## ProcvicovaniJava
 
 
 
