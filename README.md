@@ -63,8 +63,8 @@ Procvičení
 - Pole
 
 ## Procvičování JAVA
-- Základní operace
-- 
+- Základní operace - rozpracované
+
 
 
 ## Diař
