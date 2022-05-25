@@ -39,7 +39,7 @@ public class ProductController {
     public ResponseEntity add(@RequestBody Product product){
         Integer id = productService.add(product);
         if (id!=null){
-            return new ResponseEntity<>(id, HttpStatus.OK);
+            return new ResponseEntity<>(id, HttpStatus.CREATED);
         }
         return new ResponseEntity<>(null, HttpStatus.INTERNAL_SERVER_ERROR);
     }
