@@ -2,7 +2,7 @@
 procvičování 
 
 ## Spring Boot 
-- SpringShopMySql 
+- SpringShopMySql -JDBC
 
 
 
