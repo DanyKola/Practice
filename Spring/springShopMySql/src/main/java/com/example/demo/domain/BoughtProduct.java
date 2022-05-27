@@ -13,7 +13,7 @@ public class BoughtProduct {
     public BoughtProduct() {
     }
 
-    public BoughtProduct(int productId, int customerId, int quantity, Timestamp timestamp) {
+    public BoughtProduct(int productId, int customerId, int quantity) {
         this.productId = productId;
         this.customerId = customerId;
         this.quantity = quantity;

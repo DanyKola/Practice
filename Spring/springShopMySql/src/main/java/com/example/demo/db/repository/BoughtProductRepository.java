@@ -7,25 +7,22 @@ import org.springframework.stereotype.Component;
 
 import java.lang.reflect.Field;
 import java.util.List;
-
 @Component
 public class BoughtProductRepository {
-    private  final JdbcTemplate jdbcTemplate;
-    private final BoughtProductRowMapper boughtProductRowMapper;
+    private final JdbcTemplate jdbcTemplate;
+    private final BoughtProductRowMapper boughtProductRowMapper = new BoughtProductRowMapper();
 
-    public BoughtProductRepository(JdbcTemplate jdbcTemplate, BoughtProductRowMapper boughtProductRowMapper) {
+    public BoughtProductRepository(JdbcTemplate jdbcTemplate) {
         this.jdbcTemplate = jdbcTemplate;
-        this.boughtProductRowMapper = boughtProductRowMapper;
     }
 
-    public void add(BoughtProduct boughtProduct){
-        final  String sql ="INSERT INTO bought_product(product_id, customer_id, quantity,bought_at) value (?,?,?,?)";
-        jdbcTemplate.update(sql, boughtProduct.getProductId(), boughtProduct.getCustomerId(), boughtProduct.getQuantity(),boughtProduct.getBoughtAt());
-
+    public void add(BoughtProduct boughtProduct) {
+        final String sql = "INSERT INTO bought_product(product_id, customer_id, quantity, bought_at) values (?,?,?,?)";
+        jdbcTemplate.update(sql, boughtProduct.getProductId(), boughtProduct.getCustomerId(), boughtProduct.getQuantity(), boughtProduct.getBoughtAt());
     }
 
-    public List<BoughtProduct> getAllByCustomerId(int customerId){
-        final String sql = "SELECT * FROM bought_product WHERE customer_id = "+customerId;
+    public List<BoughtProduct> getAllByCustomerId(int customerId) {
+        final String sql = "SELECT * FROM bought_product WHERE customer_id = " + customerId;
         return jdbcTemplate.query(sql, boughtProductRowMapper);
     }
 }

@@ -15,6 +15,5 @@ public class BoughtProductRowMapper implements RowMapper<BoughtProduct> {
         boughtProduct.setQuantity(rs.getInt("quantity"));
         boughtProduct.setBoughtAt(rs.getTimestamp("bought_at"));
         return boughtProduct;
-
     }
 }

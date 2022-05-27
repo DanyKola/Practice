@@ -45,6 +45,6 @@ public class ProductServisImpl implements ProductService {
 
     @Override
     public void updateAvailableInternal(int id, int newAvailable) {
-
+        productRepository.updateAvailable(id,newAvailable);
     }
 }
