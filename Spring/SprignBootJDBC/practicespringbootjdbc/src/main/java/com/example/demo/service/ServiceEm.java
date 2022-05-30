@@ -14,5 +14,5 @@ public interface ServiceEm {
 
     void deleteEmployee(int id);
 
-    void updateEmployee(Employee employee, int id);
+    void updateEmployee( int id, Employee employee);
 }

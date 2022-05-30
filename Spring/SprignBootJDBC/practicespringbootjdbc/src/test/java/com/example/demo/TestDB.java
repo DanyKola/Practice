@@ -12,6 +12,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
+import java.util.List;
 
 
 @RunWith(SpringRunner.class)
@@ -20,7 +21,8 @@ import java.sql.SQLException;
 
 public class TestDB {
 
-    private final String insertEmployee = "INSERT INTO employees (name, email, department) VALUES (?,?,?)";
+    private final String sqlInsertEmployee = "INSERT INTO employees (name, email, department) VALUES (?,?,?)";
+
 
     @Autowired
     private JdbcTemplate jdbcTemplate;
@@ -36,7 +38,7 @@ public class TestDB {
     jdbcTemplate.update(new PreparedStatementCreator() {
         @Override
         public PreparedStatement createPreparedStatement(Connection con) throws SQLException {
-            PreparedStatement ps =con.prepareStatement(insertEmployee);
+            PreparedStatement ps =con.prepareStatement(sqlInsertEmployee);
 
             ps.setString(1, employee.getName());
             ps.setString(2, employee.getEmail());
@@ -44,6 +46,6 @@ public class TestDB {
             return ps;
         }
     });
-
     }
+
 }

@@ -36,7 +36,7 @@ public class ServisImpl implements ServiceEm {
     }
 
     @Override
-    public void updateEmployee(Employee employee, int id) {
+    public void updateEmployee( int id, Employee employee) {
         repository.updateEmployeeRepository(employee,id);
     }
 }

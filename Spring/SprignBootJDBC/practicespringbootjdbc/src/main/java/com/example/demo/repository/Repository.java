@@ -25,7 +25,7 @@ public class Repository {
     }
 
     public Employee getEmployeeRepository(int id){
-        final String sql = "SELECT * FROM employees WHERE employee.id =" +id;
+        final String sql = "SELECT * FROM employees WHERE employees.id =" +id;
         try {
             return jdbcTemplate.queryForObject(sql,mapper);
         } catch (EmptyResultDataAccessException e){
